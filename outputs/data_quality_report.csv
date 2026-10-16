@@ -1,0 +1,11 @@
+check,value
+raw_rows,43992
+missing_units_sold,439
+missing_unit_price,219
+bad_dates_dropped,0
+duplicates_removed,132
+negative_values_fixed,42
+outliers_fixed,25
+units_sold_imputed,505
+clean_rows,43860
+remaining_missing_values,0

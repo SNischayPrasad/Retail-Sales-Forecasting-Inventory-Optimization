@@ -1,0 +1,61 @@
+store_id,store_name,product_id,product_name,category,current_stock,avg_daily_forecast,forecast_30d_units,lead_time_days,lead_time_demand,sigma_daily,safety_stock,reorder_point,eoq,target_stock,days_of_cover,stock_status,recommended_order_qty,order_value_rs,excess_units,excess_value_rs,expected_stockout_date
+S01,SuperMart Andheri,P009,Shampoo 340ml,Personal Care,0,17.1,512.9,5,89.8,8.5,32.0,122.0,394.0,238.0,0.0,CRITICAL,394,79344.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P017,LED Bulb 9W,Electronics,0,10.2,306.8,10,84.4,9.3,49.0,134.0,446.0,223.0,0.0,CRITICAL,446,41915.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P018,Bluetooth Earbuds,Electronics,0,2.6,77.3,10,32.9,2.8,15.0,48.0,67.0,59.0,0.0,CRITICAL,67,71312.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P019,Electric Kettle,Electronics,0,5.2,156.9,10,44.2,3.9,21.0,66.0,99.0,110.0,0.0,CRITICAL,110,108787.0,0,0.0,2025-01-01
+S02,SuperMart Koramangala,P013,Detergent Powder 2kg,Home Care,0,16.0,478.8,5,77.4,8.1,30.0,108.0,311.0,222.0,0.0,CRITICAL,311,94140.0,0,0.0,2025-01-01
+S02,SuperMart Koramangala,P018,Bluetooth Earbuds,Electronics,0,1.8,54.4,10,21.5,1.9,10.0,32.0,56.0,41.0,0.0,CRITICAL,56,59604.0,0,0.0,2025-01-01
+S03,SuperMart Rohini,P016,Room Freshener,Home Care,0,8.0,239.8,5,40.5,4.2,16.0,57.0,294.0,112.0,0.0,CRITICAL,294,49639.0,0,0.0,2025-01-01
+S03,SuperMart Rohini,P018,Bluetooth Earbuds,Electronics,0,1.8,53.0,10,17.6,1.8,10.0,28.0,56.0,41.0,0.0,CRITICAL,56,59604.0,0,0.0,2025-01-01
+S03,SuperMart Rohini,P019,Electric Kettle,Electronics,0,1.9,58.2,10,20.0,2.4,13.0,34.0,60.0,47.0,0.0,CRITICAL,60,59338.0,0,0.0,2025-01-01
+S02,SuperMart Koramangala,P019,Electric Kettle,Electronics,1,1.7,51.2,10,16.7,3.0,16.0,33.0,57.0,46.0,0.6,CRITICAL,57,56371.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P001,Basmati Rice 5kg,Groceries,29,30.7,920.0,3,96.1,12.8,37.0,134.0,325.0,344.0,0.9,CRITICAL,325,172400.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P004,Wheat Atta 10kg,Groceries,57,25.4,763.5,3,64.7,11.1,32.0,97.0,359.0,287.0,2.2,REORDER,359,129983.0,0,0.0,2025-01-03
+S03,SuperMart Rohini,P010,Toothpaste 150g,Personal Care,60,22.5,674.3,5,117.5,12.4,46.0,164.0,698.0,316.0,2.7,REORDER,698,58932.0,0,0.0,2025-01-03
+S02,SuperMart Koramangala,P011,Bath Soap Pack of 4,Personal Care,68,21.3,638.9,5,112.6,9.5,35.0,148.0,535.0,291.0,3.2,REORDER,535,72765.0,0,0.0,2025-01-04
+S01,SuperMart Andheri,P003,Toor Dal 1kg,Groceries,159,46.2,1384.9,3,121.1,14.7,42.0,164.0,774.0,504.0,3.4,REORDER,774,109049.0,0,0.0,2025-01-04
+S03,SuperMart Rohini,P015,Floor Cleaner 1L,Home Care,35,10.3,309.5,5,51.0,4.8,18.0,69.0,342.0,142.0,3.4,REORDER,342,55052.0,0,0.0,2025-01-04
+S03,SuperMart Rohini,P011,Bath Soap Pack of 4,Personal Care,92,18.4,551.9,5,93.4,9.3,35.0,129.0,497.0,256.0,5.0,REORDER,497,67597.0,0,0.0,2025-01-05
+S01,SuperMart Andheri,P013,Detergent Powder 2kg,Home Care,109,21.0,630.6,5,107.4,8.8,33.0,141.0,356.0,286.0,5.2,REORDER,356,107761.0,0,0.0,2025-01-06
+S02,SuperMart Koramangala,P009,Shampoo 340ml,Personal Care,96,15.2,455.4,5,72.1,8.0,30.0,103.0,371.0,213.0,6.3,REORDER,371,74712.0,0,0.0,2025-01-07
+S03,SuperMart Rohini,P020,Table Fan,Electronics,9,1.4,42.9,10,13.2,0.9,5.0,19.0,39.0,30.0,6.3,REORDER,39,68190.0,0,0.0,2025-01-07
+S01,SuperMart Andheri,P020,Table Fan,Electronics,17,2.0,59.6,10,20.1,1.1,6.0,27.0,46.0,40.0,8.6,REORDER,46,80429.0,0,0.0,2025-01-09
+S03,SuperMart Rohini,P017,LED Bulb 9W,Electronics,109,9.2,276.1,10,100.4,7.0,37.0,138.0,423.0,194.0,11.8,REORDER,423,39754.0,0,0.0,2025-01-11
+S03,SuperMart Rohini,P004,Wheat Atta 10kg,Groceries,69,16.6,499.4,3,50.2,5.9,17.0,68.0,290.0,184.0,4.1,HEALTHY,0,0.0,0,0.0,2025-01-04
+S02,SuperMart Koramangala,P002,Sunflower Oil 1L,Groceries,201,37.0,1111.0,3,106.0,16.7,48.0,155.0,743.0,419.0,5.4,HEALTHY,0,0.0,0,0.0,2025-01-05
+S03,SuperMart Rohini,P006,Brown Bread 400g,Dairy & Bakery,262,48.1,1441.6,2,92.8,15.4,36.0,129.0,1440.0,469.0,5.5,HEALTHY,0,0.0,0,0.0,2025-01-05
+S03,SuperMart Rohini,P001,Basmati Rice 5kg,Groceries,115,18.6,557.5,3,54.4,7.1,21.0,76.0,253.0,207.0,6.2,HEALTHY,0,0.0,0,0.0,2025-01-06
+S02,SuperMart Koramangala,P014,Dishwash Liquid 750ml,Home Care,150,21.2,635.8,5,112.4,9.0,33.0,146.0,498.0,288.0,7.1,HEALTHY,0,0.0,0,0.0,2025-01-08
+S02,SuperMart Koramangala,P005,Toned Milk 1L,Dairy & Bakery,763,99.5,2985.9,2,185.4,35.1,82.0,268.0,2059.0,978.0,7.7,HEALTHY,0,0.0,0,0.0,2025-01-09
+S02,SuperMart Koramangala,P015,Floor Cleaner 1L,Home Care,80,10.3,308.5,5,51.3,5.2,19.0,71.0,342.0,143.0,7.8,HEALTHY,0,0.0,0,0.0,2025-01-09
+S01,SuperMart Andheri,P006,Brown Bread 400g,Dairy & Bakery,641,80.9,2428.0,2,176.1,29.1,68.0,245.0,1869.0,797.0,7.9,HEALTHY,0,0.0,0,0.0,2025-01-09
+S02,SuperMart Koramangala,P003,Toor Dal 1kg,Groceries,227,27.8,834.2,3,83.9,11.8,34.0,118.0,601.0,313.0,8.2,HEALTHY,0,0.0,0,0.0,2025-01-09
+S01,SuperMart Andheri,P007,Paneer 200g,Dairy & Bakery,369,43.7,1311.6,2,81.4,17.2,41.0,123.0,1044.0,435.0,8.4,HEALTHY,0,0.0,0,0.0,2025-01-09
+S03,SuperMart Rohini,P013,Detergent Powder 2kg,Home Care,119,14.2,427.2,5,67.7,6.2,23.0,91.0,294.0,194.0,8.4,HEALTHY,0,0.0,0,0.0,2025-01-10
+S02,SuperMart Koramangala,P008,Curd 400g,Dairy & Bakery,373,42.2,1266.2,2,80.2,17.0,40.0,121.0,1447.0,420.0,8.8,HEALTHY,0,0.0,0,0.0,2025-01-10
+S03,SuperMart Rohini,P008,Curd 400g,Dairy & Bakery,310,31.7,952.4,2,64.4,11.7,28.0,93.0,1255.0,314.0,9.8,HEALTHY,0,0.0,0,0.0,2025-01-11
+S02,SuperMart Koramangala,P004,Wheat Atta 10kg,Groceries,225,22.1,661.5,3,60.1,8.9,26.0,87.0,334.0,247.0,10.2,HEALTHY,0,0.0,0,0.0,2025-01-11
+S03,SuperMart Rohini,P003,Toor Dal 1kg,Groceries,263,25.4,763.1,3,65.4,8.8,26.0,92.0,575.0,281.0,10.3,HEALTHY,0,0.0,0,0.0,2025-01-11
+S03,SuperMart Rohini,P002,Sunflower Oil 1L,Groceries,389,36.9,1106.7,3,102.6,15.7,45.0,148.0,742.0,414.0,10.5,HEALTHY,0,0.0,0,0.0,2025-01-11
+S01,SuperMart Andheri,P002,Sunflower Oil 1L,Groceries,555,51.6,1548.8,3,193.1,20.6,59.0,253.0,877.0,576.0,10.8,HEALTHY,0,0.0,0,0.0,2025-01-10
+S01,SuperMart Andheri,P008,Curd 400g,Dairy & Bakery,510,46.8,1405.2,2,89.2,17.7,42.0,132.0,1524.0,464.0,10.9,HEALTHY,0,0.0,0,0.0,2025-01-12
+S03,SuperMart Rohini,P014,Dishwash Liquid 750ml,Home Care,134,12.0,358.9,5,60.6,5.4,20.0,81.0,374.0,164.0,11.2,HEALTHY,0,0.0,0,0.0,2025-01-12
+S02,SuperMart Koramangala,P010,Toothpaste 150g,Personal Care,268,23.1,692.1,5,122.6,11.2,42.0,165.0,707.0,319.0,11.6,HEALTHY,0,0.0,0,0.0,2025-01-12
+S03,SuperMart Rohini,P012,Sunscreen SPF50,Personal Care,65,5.6,168.7,5,24.1,1.8,7.0,32.0,165.0,75.0,11.6,HEALTHY,0,0.0,0,0.0,2025-01-14
+S01,SuperMart Andheri,P010,Toothpaste 150g,Personal Care,415,35.4,1061.2,5,195.4,13.2,49.0,245.0,875.0,474.0,11.7,HEALTHY,0,0.0,0,0.0,2025-01-12
+S02,SuperMart Koramangala,P016,Room Freshener,Home Care,94,7.7,231.9,5,41.4,4.2,16.0,58.0,290.0,109.0,12.2,HEALTHY,0,0.0,0,0.0,2025-01-12
+S01,SuperMart Andheri,P005,Toned Milk 1L,Dairy & Bakery,1558,127.1,3812.0,2,258.3,56.4,132.0,391.0,2327.0,1276.0,12.3,HEALTHY,0,0.0,0,0.0,2025-01-12
+S01,SuperMart Andheri,P015,Floor Cleaner 1L,Home Care,180,14.2,425.3,5,67.4,7.0,26.0,94.0,401.0,197.0,12.7,HEALTHY,0,0.0,0,0.0,2025-01-14
+S03,SuperMart Rohini,P005,Toned Milk 1L,Dairy & Bakery,1084,85.5,2566.2,2,149.2,32.6,76.0,226.0,1909.0,846.0,12.7,HEALTHY,0,0.0,0,0.0,2025-01-13
+S03,SuperMart Rohini,P007,Paneer 200g,Dairy & Bakery,330,25.4,760.7,2,42.5,10.0,24.0,67.0,795.0,253.0,13.0,HEALTHY,0,0.0,0,0.0,2025-01-14
+S01,SuperMart Andheri,P011,Bath Soap Pack of 4,Personal Care,405,29.8,893.0,5,156.0,15.2,56.0,213.0,632.0,414.0,13.6,HEALTHY,0,0.0,0,0.0,2025-01-14
+S02,SuperMart Koramangala,P001,Basmati Rice 5kg,Groceries,359,26.2,785.4,3,66.0,9.8,28.0,94.0,301.0,290.0,13.7,HEALTHY,0,0.0,0,0.0,2025-01-15
+S02,SuperMart Koramangala,P006,Brown Bread 400g,Dairy & Bakery,949,67.1,2013.5,2,131.6,28.2,66.0,198.0,1702.0,671.0,14.1,HEALTHY,0,0.0,0,0.0,2025-01-15
+S02,SuperMart Koramangala,P020,Table Fan,Electronics,19,1.3,39.5,10,11.3,0.7,4.0,16.0,38.0,27.0,14.4,HEALTHY,0,0.0,0,0.0,2025-01-17
+S01,SuperMart Andheri,P016,Room Freshener,Home Care,148,10.1,301.8,5,50.9,6.5,24.0,75.0,330.0,145.0,14.7,HEALTHY,0,0.0,0,0.0,2025-01-16
+S01,SuperMart Andheri,P012,Sunscreen SPF50,Personal Care,95,6.2,187.4,5,26.2,2.6,10.0,37.0,174.0,85.0,15.2,HEALTHY,0,0.0,0,0.0,2025-01-17
+S01,SuperMart Andheri,P014,Dishwash Liquid 750ml,Home Care,353,22.5,675.2,5,119.5,13.3,49.0,169.0,513.0,320.0,15.7,HEALTHY,0,0.0,0,0.0,2025-01-16
+S02,SuperMart Koramangala,P017,LED Bulb 9W,Electronics,148,9.3,280.4,10,107.8,7.5,39.0,147.0,427.0,198.0,15.8,HEALTHY,0,0.0,0,0.0,2025-01-15
+S02,SuperMart Koramangala,P012,Sunscreen SPF50,Personal Care,97,5.7,169.7,5,23.3,2.1,8.0,32.0,166.0,76.0,17.1,HEALTHY,0,0.0,0,0.0,2025-01-20
+S03,SuperMart Rohini,P009,Shampoo 340ml,Personal Care,157,9.0,270.9,5,49.4,6.6,25.0,75.0,287.0,134.0,17.4,HEALTHY,0,0.0,0,0.0,2025-01-18
+S02,SuperMart Koramangala,P007,Paneer 200g,Dairy & Bakery,568,30.6,918.4,2,60.7,13.6,32.0,93.0,874.0,308.0,18.6,HEALTHY,0,0.0,0,0.0,2025-01-19

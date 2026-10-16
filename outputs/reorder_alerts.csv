@@ -1,0 +1,23 @@
+store_id,store_name,product_id,product_name,category,current_stock,avg_daily_forecast,forecast_30d_units,lead_time_days,lead_time_demand,sigma_daily,safety_stock,reorder_point,eoq,target_stock,days_of_cover,stock_status,recommended_order_qty,order_value_rs,excess_units,excess_value_rs,expected_stockout_date
+S01,SuperMart Andheri,P009,Shampoo 340ml,Personal Care,0,17.1,512.9,5,89.8,8.5,32.0,122.0,394.0,238.0,0.0,CRITICAL,394,79344.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P017,LED Bulb 9W,Electronics,0,10.2,306.8,10,84.4,9.3,49.0,134.0,446.0,223.0,0.0,CRITICAL,446,41915.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P018,Bluetooth Earbuds,Electronics,0,2.6,77.3,10,32.9,2.8,15.0,48.0,67.0,59.0,0.0,CRITICAL,67,71312.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P019,Electric Kettle,Electronics,0,5.2,156.9,10,44.2,3.9,21.0,66.0,99.0,110.0,0.0,CRITICAL,110,108787.0,0,0.0,2025-01-01
+S02,SuperMart Koramangala,P013,Detergent Powder 2kg,Home Care,0,16.0,478.8,5,77.4,8.1,30.0,108.0,311.0,222.0,0.0,CRITICAL,311,94140.0,0,0.0,2025-01-01
+S02,SuperMart Koramangala,P018,Bluetooth Earbuds,Electronics,0,1.8,54.4,10,21.5,1.9,10.0,32.0,56.0,41.0,0.0,CRITICAL,56,59604.0,0,0.0,2025-01-01
+S03,SuperMart Rohini,P016,Room Freshener,Home Care,0,8.0,239.8,5,40.5,4.2,16.0,57.0,294.0,112.0,0.0,CRITICAL,294,49639.0,0,0.0,2025-01-01
+S03,SuperMart Rohini,P018,Bluetooth Earbuds,Electronics,0,1.8,53.0,10,17.6,1.8,10.0,28.0,56.0,41.0,0.0,CRITICAL,56,59604.0,0,0.0,2025-01-01
+S03,SuperMart Rohini,P019,Electric Kettle,Electronics,0,1.9,58.2,10,20.0,2.4,13.0,34.0,60.0,47.0,0.0,CRITICAL,60,59338.0,0,0.0,2025-01-01
+S02,SuperMart Koramangala,P019,Electric Kettle,Electronics,1,1.7,51.2,10,16.7,3.0,16.0,33.0,57.0,46.0,0.6,CRITICAL,57,56371.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P001,Basmati Rice 5kg,Groceries,29,30.7,920.0,3,96.1,12.8,37.0,134.0,325.0,344.0,0.9,CRITICAL,325,172400.0,0,0.0,2025-01-01
+S01,SuperMart Andheri,P004,Wheat Atta 10kg,Groceries,57,25.4,763.5,3,64.7,11.1,32.0,97.0,359.0,287.0,2.2,REORDER,359,129983.0,0,0.0,2025-01-03
+S03,SuperMart Rohini,P010,Toothpaste 150g,Personal Care,60,22.5,674.3,5,117.5,12.4,46.0,164.0,698.0,316.0,2.7,REORDER,698,58932.0,0,0.0,2025-01-03
+S02,SuperMart Koramangala,P011,Bath Soap Pack of 4,Personal Care,68,21.3,638.9,5,112.6,9.5,35.0,148.0,535.0,291.0,3.2,REORDER,535,72765.0,0,0.0,2025-01-04
+S01,SuperMart Andheri,P003,Toor Dal 1kg,Groceries,159,46.2,1384.9,3,121.1,14.7,42.0,164.0,774.0,504.0,3.4,REORDER,774,109049.0,0,0.0,2025-01-04
+S03,SuperMart Rohini,P015,Floor Cleaner 1L,Home Care,35,10.3,309.5,5,51.0,4.8,18.0,69.0,342.0,142.0,3.4,REORDER,342,55052.0,0,0.0,2025-01-04
+S03,SuperMart Rohini,P011,Bath Soap Pack of 4,Personal Care,92,18.4,551.9,5,93.4,9.3,35.0,129.0,497.0,256.0,5.0,REORDER,497,67597.0,0,0.0,2025-01-05
+S01,SuperMart Andheri,P013,Detergent Powder 2kg,Home Care,109,21.0,630.6,5,107.4,8.8,33.0,141.0,356.0,286.0,5.2,REORDER,356,107761.0,0,0.0,2025-01-06
+S02,SuperMart Koramangala,P009,Shampoo 340ml,Personal Care,96,15.2,455.4,5,72.1,8.0,30.0,103.0,371.0,213.0,6.3,REORDER,371,74712.0,0,0.0,2025-01-07
+S03,SuperMart Rohini,P020,Table Fan,Electronics,9,1.4,42.9,10,13.2,0.9,5.0,19.0,39.0,30.0,6.3,REORDER,39,68190.0,0,0.0,2025-01-07
+S01,SuperMart Andheri,P020,Table Fan,Electronics,17,2.0,59.6,10,20.1,1.1,6.0,27.0,46.0,40.0,8.6,REORDER,46,80429.0,0,0.0,2025-01-09
+S03,SuperMart Rohini,P017,LED Bulb 9W,Electronics,109,9.2,276.1,10,100.4,7.0,37.0,138.0,423.0,194.0,11.8,REORDER,423,39754.0,0,0.0,2025-01-11

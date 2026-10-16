@@ -1,0 +1,61 @@
+
+======================================================================
+STEP 1: Virtual retail simulation (synthetic dataset)
+======================================================================
+[simulation] 43,992 rows -> retail_sales_raw.csv
+[simulation] 3 stores, 20 products, 731 days (2023-01-01 to 2024-12-31)
+
+======================================================================
+STEP 2: Data cleaning & preprocessing
+======================================================================
+[preprocessing] Data quality report:
+    raw_rows                    : 43,992
+    missing_units_sold          : 439
+    missing_unit_price          : 219
+    bad_dates_dropped           : 0
+    duplicates_removed          : 132
+    negative_values_fixed       : 42
+    outliers_fixed              : 25
+    units_sold_imputed          : 505
+    clean_rows                  : 43,860
+    remaining_missing_values    : 0
+
+======================================================================
+STEP 3: Exploratory data analysis
+======================================================================
+[eda] 8 charts saved to images/ | YoY growth 7.4% | stockout rate 7.9%
+
+======================================================================
+STEP 4: Feature engineering
+======================================================================
+[features] 17 features created, 42,180 usable rows
+
+======================================================================
+STEP 5: Sales forecasting (train, test, forecast)
+======================================================================
+[forecasting] Train: up to 2024-11-05 (38,820 rows) | Test: 56 days recursive
+    Seasonal Naive (baseline)    MAE=13.30  RMSE=22.64  WAPE=54.2%  Weekly WAPE=35.0%  Bias=+31.2%
+    Linear Regression            MAE=9.79  RMSE=15.87  WAPE=39.9%  Weekly WAPE=21.3%  Bias=+7.6%
+    Random Forest                MAE=9.35  RMSE=15.90  WAPE=38.1%  Weekly WAPE=20.4%  Bias=+6.8%
+[forecasting] Best model: Random Forest
+[forecasting] 30-day forecast saved (1,800 rows) | model saved to models/
+
+======================================================================
+STEP 6: Inventory optimisation & policy simulation
+======================================================================
+[inventory] Z=1.645 for 95% service level | status counts: {'HEALTHY': 38, 'CRITICAL': 11, 'REORDER': 11}
+[inventory] 22 reorder alerts | total order value Rs. 1,716,678
+[simulation] Old vs new policy on last 56 days of real demand:
+                             Fill rate %  Stockout days %  Avg inventory value (Rs)  Total cost (Rs)
+Policy                                                                                              
+Old naive rule                      97.8              6.7                 2062288.6         368379.9
+Forecast-driven (ROP + EOQ)         99.2              2.2                 2707373.4         221645.4
+
+======================================================================
+STEP 7: Visualisation & business report
+======================================================================
+[report] Business insights written to reports/business_insights.md
+[visualization] 8 result charts saved to images/
+
+Pipeline finished in 43 seconds.
+Next: open reports/business_insights.md or run `streamlit run app/streamlit_app.py`

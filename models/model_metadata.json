@@ -1,0 +1,31 @@
+{
+  "model": "Random Forest",
+  "features": [
+    "store_code",
+    "product_code",
+    "category_code",
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "week_of_year",
+    "is_weekend",
+    "is_salary_week",
+    "promotion",
+    "festival_period",
+    "price_ratio",
+    "lag_14",
+    "lag_28",
+    "same_weekday_mean_4w",
+    "normal_day_mean_28",
+    "normal_day_std_28"
+  ],
+  "trained_until": "2024-12-31",
+  "test_metrics": {
+    "MAE": 9.347,
+    "RMSE": 15.897,
+    "WAPE_%": 38.106,
+    "Bias_%": 6.778,
+    "Accuracy_%": 61.894,
+    "Weekly_WAPE_%": 20.391
+  }
+}

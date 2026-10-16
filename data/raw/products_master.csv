@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price,base_daily_demand,unit_cost,lead_time_days
+P001,Basmati Rice 5kg,Groceries,650,18.0,530.46,3
+P002,Sunflower Oil 1L,Groceries,160,30.0,122.53,3
+P003,Toor Dal 1kg,Groceries,170,22.0,140.89,3
+P004,Wheat Atta 10kg,Groceries,450,15.0,362.07,3
+P005,Toned Milk 1L,Dairy & Bakery,60,80.0,42.85,2
+P006,Brown Bread 400g,Dairy & Bakery,50,45.0,42.32,2
+P007,Paneer 200g,Dairy & Bakery,90,25.0,73.28,2
+P008,Curd 400g,Dairy & Bakery,45,35.0,36.81,2
+P009,Shampoo 340ml,Personal Care,280,10.0,201.38,5
+P010,Toothpaste 150g,Personal Care,110,20.0,84.43,5
+P011,Bath Soap Pack of 4,Personal Care,180,16.0,136.01,5
+P012,Sunscreen SPF50,Personal Care,450,5.0,377.56,5
+P013,Detergent Powder 2kg,Home Care,380,12.0,302.7,5
+P014,Dishwash Liquid 750ml,Home Care,190,14.0,156.45,5
+P015,Floor Cleaner 1L,Home Care,210,9.0,160.97,5
+P016,Room Freshener,Home Care,230,6.0,168.84,5
+P017,LED Bulb 9W,Electronics,120,8.0,93.98,10
+P018,Bluetooth Earbuds,Electronics,1500,2.0,1064.36,10
+P019,Electric Kettle,Electronics,1200,2.0,988.97,10
+P020,Table Fan,Electronics,2200,1.5,1748.45,10

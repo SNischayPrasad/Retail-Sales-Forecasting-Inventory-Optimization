@@ -1,0 +1,4 @@
+Model,MAE,RMSE,WAPE_%,Bias_%,Accuracy_%,Weekly_WAPE_%
+Seasonal Naive (baseline),13.3,22.64,54.225,31.236,45.775,35.023
+Linear Regression,9.788,15.87,39.908,7.632,60.092,21.348
+Random Forest,9.347,15.897,38.106,6.778,61.894,20.391
