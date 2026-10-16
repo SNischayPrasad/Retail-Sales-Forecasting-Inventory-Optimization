@@ -246,7 +246,7 @@ Each module can also be run on its own, for example `python -m src.data_generato
 - Wrote modular, tested, and reproducible Python code with a dashboard on top.
 
 ## Author
-**Your Name**: aspiring Data / Business / Supply Chain Analyst
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/SNischayPrasad) · your.email@example.com
+**Sadhanala Nischay Prasad**: full-stack and applied-AI engineer
+[LinkedIn](https://www.linkedin.com/in/sadhanala-nischay-prasad-0b0978389) · [GitHub](https://github.com/SNischayPrasad)
 
 *Data is fully synthetic and was created for learning and portfolio purposes.*
